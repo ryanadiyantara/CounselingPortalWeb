@@ -611,6 +611,35 @@ pre code {
   }
 }
 
+/* Custom Responsive */
+/* Laptop */
+@media (max-width: 1366px) {
+
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 65%;
+  }
+}
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+  html {
+    font-size: 60%;
+  }
+  .index .section .container .row{
+    text-align: center;
+  }
+  .index .section .container .row .col-md-4{
+    margin: 1.5rem;
+  }
+  .footer .container .row .col-md-8{
+    display: none;
+  }
+}
+
 .container-fluid {
   width: 100%;
   padding-right: 15px;
