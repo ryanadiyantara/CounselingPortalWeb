@@ -620,14 +620,14 @@ pre code {
 /* Tablet */
 @media (max-width: 768px) {
   html {
-    font-size: 65%;
+    font-size: 75%;
   }
 }
 
 /* Mobile Phone */
 @media (max-width: 450px) {
   html {
-    font-size: 60%;
+    font-size: 70%;
   }
   .index .section .container .row{
     text-align: center;
@@ -635,8 +635,26 @@ pre code {
   .index .section .container .row .col-md-4{
     margin: 1.5rem;
   }
+  .tentangKami .section .container .row .col-lg-6{
+    margin: 0rem 1.5rem 0rem;
+  }
+  .pengenalanTentangKarirCon{
+    margin: 0rem 1.5rem 0rem;
+  }
+  .pengenalanTentangKarirIll{
+    display: none;
+  }
+  .kontakResp{
+    margin-top: 1.5rem !important;
+  }
+  .respRemoveIll{
+    display: none;
+  }
   .footer .container .row .col-md-8{
     display: none;
+  }
+  .footerTentangKami{
+    margin: 0rem 1.5rem 0rem;
   }
 }
 
